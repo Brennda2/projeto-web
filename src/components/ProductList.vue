@@ -15,7 +15,7 @@
           Conheça nossos produtos!
         </span>
         <span class="text-lg font-bold text-amber-100">
-          Por: Brennda Maia Lopes - Projeto desenvolvido durante o Minicurso de Desenvolvimento Web!
+          Projeto desenvolvido durante o Minicurso de Desenvolvimento Web!
         </span>
         
       </div>
