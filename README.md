@@ -1,5 +1,81 @@
-# Vue 3 + Vite
+# 🛍️ Projeto Web - Catálogo de Produtos
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 📌 Sobre o projeto
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Este projeto consiste em uma aplicação web desenvolvida com **Vue.js**, tendo o objetivo de apresentar um catálogo de produtos consumidos por uma API externa.
+
+A aplicação permite visualizar produtos de forma dinâmica, exibindo informações como imagem, nome, categoria, preço e avaliação. Além disso, conta com sistema de paginação para navegação entre os itens.
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+As seguintes tecnologias foram utilizadas no desenvolvimento:
+
+- **Vue.js 3**
+- **Vite**
+- **Tailwind CSS**
+- **Axios**
+- **JavaScript**
+- **HTML5**
+- **CSS3**
+
+---
+
+## 📂 Estrutura do projeto
+
+```bash
+src/
+│
+├── assets/                # Imagens e arquivos estáticos
+├── components/
+│   ├── ProductCard.vue    # Card individual de produto
+│   └── ProductList.vue    # Lista de produtos
+│
+├── composables/
+│   └── useProducts.js     # Lógica de produtos e paginação
+│
+├── service/
+│   └── productService.js  # Comunicação com API
+│
+├── App.vue
+├── main.js
+└── style.css
+```
+
+---
+
+
+## ⚙️ Como executar o projeto
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/seu-usuario/projeto-web.git
+```
+
+### 2. Acesse a pasta
+
+```bash
+cd projeto-web
+```
+
+### 3. Instale as dependências
+
+```bash
+npm install
+```
+
+### 4. Execute o projeto
+
+```bash
+npm run dev
+```
+
+---
+
+## 👩‍💻 Desenvolvido por
+
+Projeto desenvolvido durante o **Minicurso de Desenvolvimento Web**.
+
+Desenvolvido por **Brennda Maia Lopes** 
