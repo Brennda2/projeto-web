@@ -73,9 +73,3 @@ npm run dev
 ```
 
 ---
-
-## 👩‍💻 Desenvolvido por
-
-Projeto desenvolvido durante o **Minicurso de Desenvolvimento Web**.
-
-Desenvolvido por **Brennda Maia Lopes** 
